@@ -9,7 +9,8 @@
   }
 
 body {
-	background-image: linear-gradient(to bottom right, #0099ff, #ccff33);
+	/*background-image: linear-gradient(to bottom right, #0099ff, #ccff33);*/
+	background-color: white;
 }
 
 .testo{
@@ -48,15 +49,6 @@ body::-webkit-scrollbar-thumb {
 
 }
 
-<<<<<<< HEAD
-/*Lecini*/
-*{
-    margin: 0;
-    padding: 0;
-}
-=======
-
->>>>>>> 9bd25fa2833e870ab573b3a805da7a9992763816
 .colore-importante{
     color: tomato;
 }
