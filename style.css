@@ -1,6 +1,36 @@
-style
+
 .testo{
 	font-size: 24px;
 	font-family: Impact;
 	color:#C11B17
 }
+
+* {
+	box-sizing: border-box;
+}
+
+/* scrooll bar*/
+
+body::-webkit-scrollbar {
+	width: 0.3cm;
+}
+
+body::-webkit-scrollbar-track {
+	background: rgba(17, 17, 17, 0.8);
+}
+
+body::-webkit-scrollbar-thumb {
+	background: rgba(166, 171, 175, 0.9);
+	border-radius: 40px;
+}
+
+/* Media adaptation*/
+
+@media only screen and (min-width: 1000px) {
+	
+}
+
+@media only screen and (max-width: 500px) {
+
+}
+
