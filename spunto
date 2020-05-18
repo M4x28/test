@@ -52,33 +52,7 @@ body {
 		border-radius: 40px;
 	}
 
-.aboutMe {
-	font: italic bold 60px Georgia, serif;
-	text-align: center;
-	padding: 30;
-}
 
-h1.WhoIAmTitle {
-	font: italic bold 40px Georgia, serif;
-	text-align: center;
-	padding-top: 70;
-	padding-bottom: 15;
-}
-
-h1.EducationTitle {
-	font: italic bold 40px Georgia, serif;
-	text-align: center;
-	padding-top: 70;
-	padding-bottom: 15;
-	
-}
-
-h1.HobbiesTitle {
-	font: italic bold 40px Georgia, serif;
-	text-align: center;
-	padding-top: 70;
-	padding-bottom: 15;
-}
 
 .border1 {
   border: 12px solid transparent;
