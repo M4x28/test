@@ -1,3 +1,12 @@
+:root {
+	font-size: 16px;
+	font-family: 'Open Sans';
+	--text-primary: #b6b6b6;
+	--text-secondary: #ececec;
+	--bg-primary: #23232e;
+	--bg-secondary: #141418;
+	--transition-speed: 600ms;
+  }
 
 body {
 	background-image: linear-gradient(to bottom right, #0099ff, #ccff33);
@@ -40,10 +49,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-*{
-    margin: 0;
-    padding: 0;
-}
 .colore-importante{
     color: tomato;
 }
@@ -73,3 +78,35 @@ body::-webkit-scrollbar-thumb {
     display: flex;
    
 }
+
+.dark {
+	--text-primary: #b6b6b6;
+	--text-secondary: #ececec;
+	--bg-primary: #23232e;
+	--bg-secondary: #141418;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: scroll;
+	background-size: 100% 100%;
+	color: white;
+  }
+  
+  .light {
+	--text-primary: #1f1f1f;
+	--text-secondary: #000000;
+	--bg-primary: #ffffff;
+	--bg-secondary: #e4e4e4;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: scroll;
+	background-size: 100% 100%;
+	color: black;
+  }
+
+  .dark #darkIcon {
+	display: block;
+  }
+  
+  .light #lightIcon {
+	display: block;
+  }
