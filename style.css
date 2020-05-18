@@ -49,6 +49,13 @@ body::-webkit-scrollbar-thumb {
 
 }
 
+
+/*Lecini*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .colore-importante{
     color: tomato;
 }
@@ -78,6 +85,7 @@ body::-webkit-scrollbar-thumb {
     display: flex;
    
 }
+/*Lecini*/
 
 .dark {
 	--text-primary: #b6b6b6;
