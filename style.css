@@ -4,7 +4,7 @@
 	font-family: Impact;
 	color:#C11B17
 }
-<<<<<<< HEAD
+
 
 * {
 	box-sizing: border-box;
@@ -35,7 +35,7 @@ body::-webkit-scrollbar-thumb {
 
 }
 
-=======
+
 *{
     margin: 0;
     padding: 0;
@@ -69,4 +69,3 @@ body::-webkit-scrollbar-thumb {
     display: flex;
    
 }
->>>>>>> e18ddcf144b97644ec7774a7e0683c66bc6fd229
