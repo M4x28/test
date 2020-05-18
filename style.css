@@ -9,7 +9,8 @@
   }
 
 body {
-	background-image: linear-gradient(to bottom right, #0099ff, #ccff33);
+	/*background-image: linear-gradient(to bottom right, #0099ff, #ccff33);*/
+	background-color: white;
 }
 
 .testo{
@@ -54,6 +55,7 @@ body::-webkit-scrollbar-thumb {
     margin: 0;
     padding: 0;
 }
+
 .colore-importante{
     color: tomato;
 }
