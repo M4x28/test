@@ -88,6 +88,7 @@ body::-webkit-scrollbar-thumb {
 	background-position: top;
 	background-attachment: scroll;
 	background-size: 100% 100%;
+	background-color: rgb(70, 69, 69);
 	color: white;
   }
   
@@ -100,6 +101,7 @@ body::-webkit-scrollbar-thumb {
 	background-position: top;
 	background-attachment: scroll;
 	background-size: 100% 100%;
+	background-color: rgba(226, 229, 231, 0.658);
 	color: black;
   }
 
