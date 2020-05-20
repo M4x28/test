@@ -244,34 +244,37 @@ main {
     color: tomato;
 }
 
-#informazioni .contenitore{
+.informazioni .contenitore{
     display: flex;
     justify-content: center;
-    padding: 30px 10px;
+	padding: 30px 10px;
+	align: center;
 }
 
-#informazioni img{
+.informazioni img{
     width: 50%;
     margin: auto;
 	border-radius: 50%;
 	overflow: visible;
 }
 
-#informazioni .info-s{
+.informazioni .info-s{
     flex: 1;
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
-#informazioni .info-s h1{
+.informazioni .info-s h1{
     font-size: 2rem;
     padding-bottom: 12px;
 }
-#informazioni .info-d{
+
+.informazioni .info-d{
     flex: 1;
     display: flex;
    
 }
+
 /*Lecini*/
 
