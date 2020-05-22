@@ -325,7 +325,7 @@ main {
   #border1 {
 	border: 12px solid transparent;
 	padding: 25px;
-	border-image: url("/images/border1.jpeg") 30 round;
+	border-image: url("../images/border1.jpeg") 30 round;
 	text-align: center;
 	width: auto;
 	height: auto;
