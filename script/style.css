@@ -382,7 +382,7 @@ main {
 	font: 23px Rockwell Extra Bold, bold, seif;
   }
 
-  #border5 {
+  #border7 {
 	border: 12px solid transparent;
 	padding: 25px;
 	border-image: url("../images/border7.jpeg") 30 round;
