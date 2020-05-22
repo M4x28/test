@@ -325,7 +325,7 @@ main {
   #border1 {
 	border: 12px solid transparent;
 	padding: 25px;
-	border-image: url("../images/border1.jpg") 60 round;
+	border-image: url("images/border1.jpeg") 30 round;
 	text-align: center;
 	width: auto;
 	height: auto;
@@ -335,7 +335,7 @@ main {
   #border2 {
 	border: 15px solid transparent;
 	padding: 25px;
-	border-image: url("../images/border2.jpg") 60 stretch;
+	border-image: url("images/border2.jpeg") 60 stretch;
 	text-align: center;
 	width: auto;
 	height: auto;
