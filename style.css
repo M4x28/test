@@ -1,18 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-
 /*LEO*/
 
-
-=======
-/*LEO*/
-
->>>>>>> 5100114add646f813ad9cc7ac507a58c1b0dce99
-=======
-/*LEO*/
-
->>>>>>> 5100114add646f813ad9cc7ac507a58c1b0dce99
 :root {
 	font-size: 16px;
 	font-family: 'Open Sans';
@@ -187,8 +174,7 @@ main {
 	  main {
 	  margin: 0;
 	}
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 
   }
   
@@ -264,8 +250,6 @@ main {
     padding: 0;
 }
 
-
-
 .colore-importante{
     color: tomato;
 }
@@ -303,17 +287,10 @@ main {
    
 }
 
-<<<<<<< HEAD
-}
-=======
->>>>>>> 93bbfec0530714e2cc5583303272e144bced24b9
+
+
 /*Lecini*/
-=======
 
-=======
-
->>>>>>> 5100114add646f813ad9cc7ac507a58c1b0dce99
-  }
   
   /* Large screens */
   @media only screen and (min-width: 1000px) {
@@ -341,10 +318,7 @@ main {
 	  left: 0px;
 	}
   }
-<<<<<<< HEAD
->>>>>>> 5100114add646f813ad9cc7ac507a58c1b0dce99
-=======
->>>>>>> 5100114add646f813ad9cc7ac507a58c1b0dce99
+
 
 /* day night*/
 .dark {
@@ -381,16 +355,29 @@ main {
 	display: block;
   }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5100114add646f813ad9cc7ac507a58c1b0dce99
+
   /*LEO*/
 
 
+#border1 {
+	border: 12px solid transparent;
+	padding: 25px;
+	border-image: url("../images/border1.jpeg") 60 round;
+	text-align: center;
+	width: auto;
+	height: auto;
+	font: 20px Cooper Black, bold, sans-serif;
+}
 
-
+#border2 {
+	border: 15px solid transparent;
+	padding: 25px;
+	border-image: url("../images/border2.jpeg") 60 stretch;
+	text-align: center;
+	width: auto;
+	height: auto;
+	font: 23px Rockwell Extra Bold, bold, seif;
+}
 
 /*Lecini*/
 *{
@@ -436,8 +423,3 @@ main {
 }
 
 /*Lecini*/
-
-<<<<<<< HEAD
->>>>>>> 5100114add646f813ad9cc7ac507a58c1b0dce99
-=======
->>>>>>> 5100114add646f813ad9cc7ac507a58c1b0dce99
