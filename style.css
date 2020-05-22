@@ -341,3 +341,53 @@ main {
 	height: auto;
 	font: 23px Rockwell Extra Bold, bold, seif;
   }
+
+  #border3 {
+	border: 12px solid transparent;
+	padding: 25px;
+	border-image: url("../images/border3.jpeg") 30 round;
+	text-align: center;
+	width: auto;
+	height: auto;
+	font: 20px Cooper Black, bold, sans-serif;
+  }
+
+  #border4 {
+	border: 15px solid transparent;
+	padding: 25px;
+	border-image: url("../images/border4.jpeg") 60 stretch;
+	text-align: center;
+	width: auto;
+	height: auto;
+	font: 23px Rockwell Extra Bold, bold, seif;
+  }
+
+  #border5 {
+	border: 12px solid transparent;
+	padding: 25px;
+	border-image: url("../images/border5.jpeg") 30 round;
+	text-align: center;
+	width: auto;
+	height: auto;
+	font: 20px Cooper Black, bold, sans-serif;
+  }
+
+  #border6 {
+	border: 15px solid transparent;
+	padding: 25px;
+	border-image: url("../images/border6.jpeg") 60 stretch;
+	text-align: center;
+	width: auto;
+	height: auto;
+	font: 23px Rockwell Extra Bold, bold, seif;
+  }
+
+  #border7 {
+	border: 12px solid transparent;
+	padding: 25px;
+	border-image: url("../images/border7.jpeg") 30 round;
+	text-align: center;
+	width: auto;
+	height: auto;
+	font: 20px Cooper Black, bold, sans-serif;
+  }
