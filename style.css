@@ -1,4 +1,7 @@
-/*LEO*/
+
+
+
+
 
 :root {
 	font-size: 16px;
@@ -175,7 +178,6 @@ main {
 	  margin: 0;
 	}
 
-
   }
   
   /* Large screens */
@@ -240,15 +242,14 @@ main {
 	display: block;
   }
 
-  /*LEO*/
 
-
-/*Lecini*/
 
 *{
     margin: 0;
     padding: 0;
 }
+
+
 
 .colore-importante{
     color: tomato;
@@ -258,7 +259,7 @@ main {
     display: flex;
     justify-content: center;
 	padding: 30px 10px;
-	align: center;
+	box-align: center;
 }
 
 .informazioni img{
@@ -289,38 +290,7 @@ main {
 
 
 
-/*Lecini*/
 
-  
-  /* Large screens */
-  @media only screen and (min-width: 1000px) {
-	.navbar {
-	  top: 0;
-	  width: 5rem;
-	  height: 100vh;
-	}
-  
-	.navbar:hover {
-	  width: 16rem;
-	}
-  
-	.navbar:hover .link-text {
-	  display: inline;
-	}
-  
-	.navbar:hover .logo svg
-	{
-	  margin-left: 11rem;
-	}
-  
-	.navbar:hover .logo-text
-	{
-	  left: 0px;
-	}
-  }
-
-
-/* day night*/
 .dark {
 	--text-primary: #b6b6b6;
 	--text-secondary: #ececec;
@@ -355,71 +325,3 @@ main {
 	display: block;
   }
 
-
-  /*LEO*/
-
-
-#border1 {
-	border: 12px solid transparent;
-	padding: 25px;
-	border-image: url("../images/border1.jpeg") 60 round;
-	text-align: center;
-	width: auto;
-	height: auto;
-	font: 20px Cooper Black, bold, sans-serif;
-}
-
-#border2 {
-	border: 15px solid transparent;
-	padding: 25px;
-	border-image: url("../images/border2.jpeg") 60 stretch;
-	text-align: center;
-	width: auto;
-	height: auto;
-	font: 23px Rockwell Extra Bold, bold, seif;
-}
-
-/*Lecini*/
-*{
-    margin: 0;
-    padding: 0;
-}
-
-.colore-importante{
-    color: tomato;
-}
-
-.informazioni .contenitore{
-    display: flex;
-    justify-content: center;
-	padding: 30px 10px;
-	align: center;
-}
-
-.informazioni img{
-    width: 50%;
-    margin: auto;
-	border-radius: 50%;
-	overflow: visible;
-}
-
-.informazioni .info-s{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-	text-align: center;
-	padding-left: 75px;
-}
-
-.informazioni .info-s h1{
-    font-size: 2rem;
-    padding-bottom: 12px;
-}
-
-.informazioni .info-d{
-    flex: 1;
-    display: flex;
-   
-}
-
-/*Lecini*/
