@@ -356,7 +356,7 @@ main {
   #border2 {
 	border: 15px solid transparent;
 	padding: 25px;
-	border-image: url("../images/border2.jpeg") 10 stretch;
+	border-image: url("../images/border2.jpeg") 5 stretch;
 	text-align: center;
 	width: auto;
 	height: auto;
