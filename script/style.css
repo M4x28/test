@@ -256,7 +256,7 @@ main {
 	color: tomato;
 	font: 40px Arial Black,bold;
 	text-align: center;
-
+	padding: 10;
 }
 
 .informazioni .contenitore{
