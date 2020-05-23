@@ -266,7 +266,8 @@ main {
 	color: red;
 	font: 40px 	verdana, bold;
 	text-align: center;
-	padding: 10;
+	padding: 15;
+	margin-bottom:20px;
 }
 
 .informazioni .contenitore{
