@@ -252,8 +252,11 @@ main {
 	padding-bottom: 80;
 }
 
-.colore-importante{
-    color: tomato;
+.titolo{
+	color: tomato;
+	font: 40px Arial Black,bold;
+	text-align: center;
+
 }
 
 .informazioni .contenitore{
@@ -336,7 +339,7 @@ main {
   #border2 {
 	border: 15px solid transparent;
 	padding: 25px;
-	border-image: url("../images/border2.jpeg") 60 stretch;
+	border-image: url("../images/border2.jpeg") 10 stretch;
 	text-align: center;
 	width: auto;
 	height: auto;
