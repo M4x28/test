@@ -245,7 +245,7 @@ main {
 }
 
 #titoloPagina {
-	font: 60px Lucida Calligraphy, bold, serif;
+	font: 80px Lucida Calligraphy, bold, serif;
 	color: var(--text-secondary);
 	text-align: center;
 	padding: 35;
