@@ -263,8 +263,8 @@ main {
 }
 
 .titoloSec {
-	color: rgb(51, 255, 0);
-	font: 40px italic, bold;
+	color: red;
+	font: 40px 	verdana, bold;
 	text-align: center;
 	padding: 10;
 }
@@ -342,7 +342,10 @@ main {
   .light #lightIcon {
 	display: block;
   }
-
+  #box1 {
+	  height: 350px;
+	  width: 500px;
+  }
   #border1 {
 	border: 12px solid transparent;
 	padding: 25px;
@@ -401,7 +404,7 @@ main {
   #border6 {
 	border: 15px solid transparent;
 	padding: 25px;
-	border-image: url("../images/border6.jpeg") 20 stretch;
+	border-image: url("../images/border6.jpeg") 5 stretch;
 	text-align: center;
 	width: auto;
 	height: auto;
@@ -412,7 +415,7 @@ main {
   #border7 {
 	border: 12px solid transparent;
 	padding: 25px;
-	border-image: url("../images/border7.jpeg") 20 round;
+	border-image: url("../images/border7.jpeg") 5 stretch;
 	text-align: center;
 	width: auto;
 	height: auto;
