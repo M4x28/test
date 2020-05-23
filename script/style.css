@@ -253,10 +253,13 @@ main {
 }
 
 .titolo{
-	color: tomato;
-	font: 40px Arial Black,bold;
+	color: rgb(255, 196, 0);
+	font-weight: bold;
+	font: 70px 'oswald', bold;
 	text-align: center;
 	padding: 10;
+	margin-top:-20px;
+	
 }
 
 .informazioni .contenitore{
