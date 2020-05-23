@@ -259,6 +259,13 @@ main {
 	padding: 10;
 }
 
+.titoloSec {
+	color: rgb(51, 255, 0);
+	font: 40px italic, bold;
+	text-align: center;
+	padding: 10;
+}
+
 .informazioni .contenitore{
     display: flex;
     justify-content: center;
@@ -267,11 +274,18 @@ main {
 }
 
 .informazioni img{
-    width: 50%;
-    margin: auto;
-	border-radius: 50%;
-	overflow: visible;
+	float: right;
+	width: max-content;
+	height:auto;
+	margin-left:15px;
+	overflow: auto;
 }
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
 
 .informazioni .info-s{
     flex: 1;
