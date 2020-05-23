@@ -253,8 +253,18 @@ main {
 }
 
 .titolo{
-	color: tomato;
-	font: 40px Arial Black,bold;
+	color: rgb(255, 196, 0);
+	font-weight: bold;
+	font: 70px 'oswald', bold;
+	text-align: center;
+	padding: 10;
+	margin-top:-20px;
+	
+}
+
+.titoloSec {
+	color: rgb(51, 255, 0);
+	font: 40px italic, bold;
 	text-align: center;
 	padding: 10;
 }
@@ -267,11 +277,18 @@ main {
 }
 
 .informazioni img{
-    width: 50%;
-    margin: auto;
-	border-radius: 50%;
-	overflow: visible;
+	float: right;
+	width: max-content;
+	height:auto;
+	margin-left:15px;
+	overflow: auto;
 }
+
+  .clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
 
 .informazioni .info-s{
     flex: 1;
@@ -334,64 +351,71 @@ main {
 	width: auto;
 	height: auto;
 	font: 20px Cooper Black, bold, sans-serif;
+	margin: 30;
   }
-  
+
   #border2 {
 	border: 15px solid transparent;
 	padding: 25px;
-	border-image: url("../images/border2.jpeg") 10 stretch;
+	border-image: url("../images/border2.jpeg") 5 stretch;
 	text-align: center;
 	width: auto;
 	height: auto;
 	font: 23px Rockwell Extra Bold, bold, seif;
+	margin: 30;
   }
 
   #border3 {
 	border: 12px solid transparent;
 	padding: 25px;
-	border-image: url("../images/border3.jpeg") 30 round;
+	border-image: url("../images/border3.jpeg") 10 round;
 	text-align: center;
 	width: auto;
 	height: auto;
 	font: 20px Cooper Black, bold, sans-serif;
+	margin: 30;
   }
 
   #border4 {
 	border: 15px solid transparent;
 	padding: 25px;
-	border-image: url("../images/border4.jpeg") 60 stretch;
+	border-image: url("../images/border4.jpeg") 10 stretch;
 	text-align: center;
 	width: auto;
 	height: auto;
 	font: 23px Rockwell Extra Bold, bold, seif;
+	margin: 30;
   }
 
   #border5 {
 	border: 12px solid transparent;
 	padding: 25px;
-	border-image: url("../images/border5.jpeg") 30 round;
+	border-image: url("../images/border5.jpeg") 10 round;
 	text-align: center;
 	width: auto;
 	height: auto;
 	font: 20px Cooper Black, bold, sans-serif;
+	margin: 30;
   }
 
   #border6 {
 	border: 15px solid transparent;
 	padding: 25px;
-	border-image: url("../images/border6.jpeg") 60 stretch;
+	border-image: url("../images/border6.jpeg") 20 stretch;
 	text-align: center;
 	width: auto;
 	height: auto;
 	font: 23px Rockwell Extra Bold, bold, seif;
+	margin: 30;
   }
 
   #border7 {
 	border: 12px solid transparent;
 	padding: 25px;
-	border-image: url("../images/border7.jpeg") 30 round;
+	border-image: url("../images/border7.jpeg") 20 round;
 	text-align: center;
 	width: auto;
 	height: auto;
 	font: 20px Cooper Black, bold, sans-serif;
+	margin: 30;
   }
