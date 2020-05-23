@@ -271,6 +271,14 @@ main {
 	margin-bottom:-10px;
 }
 
+.titolovideogiochi{
+	color: #ffd100;
+	font: 40px 	verdana, bold;
+	text-align: center;
+	padding: 5;
+	margin-bottom:-10px;	
+}
+
 .titolomusica {
 	color: rgb(171, 53, 240);
 	font: 40px 	verdana, bold;
@@ -278,6 +286,15 @@ main {
 	padding: 5;
 	margin-bottom:-10px;
 }
+
+.titoloattualità{
+	color: #003C7F;
+	font: 40px 	verdana, bold;
+	text-align: center;
+	padding: 5;
+	margin-bottom:-10px;	
+}
+
 
 .informazioni .contenitore{
     display: flex;
