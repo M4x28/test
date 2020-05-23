@@ -30,6 +30,7 @@ p{
 	text-align:left;
 	margin-left:10px;
 	margin-right:20px;
+	padding:30px;
 }
 
 * {
@@ -262,12 +263,20 @@ main {
 	
 }
 
-.titoloSec {
+.titolosport {
 	color: red;
 	font: 40px 	verdana, bold;
 	text-align: center;
-	padding: 15;
-	margin-bottom:20px;
+	padding: 5;
+	margin-bottom:-10px;
+}
+
+.titolomusica {
+	color: rgb(171, 53, 240);
+	font: 40px 	verdana, bold;
+	text-align: center;
+	padding: 5;
+	margin-bottom:-10px;
 }
 
 .informazioni .contenitore{
@@ -343,10 +352,7 @@ main {
   .light #lightIcon {
 	display: block;
   }
-  #box1 {
-	  height: 350px;
-	  width: 500px;
-  }
+  
   #border1 {
 	border: 12px solid transparent;
 	padding: 25px;
