@@ -451,10 +451,10 @@ main {
 	margin: 30;
   }
   
-  #border10 {
+  #border8 {
 	border: 12px solid transparent;
 	padding: 25px;
-	border-image: url("../images/border10.jpeg") 5 round;
+	border-image: url("../images/border8.jpg") 2 round;
 	text-align: center;
 	width: auto;
 	height: auto;
