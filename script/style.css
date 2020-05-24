@@ -446,13 +446,4 @@ main {
 	font: 23px Rockwell Extra Bold, bold, seif;
 	margin: 30;
   }
-  #border10 {
-	border: 12px solid transparent;
-	padding: 25px;
-	border-image: url("../images/border10.jpeg") 15 round;
-	text-align: center;
-	width: auto;
-	height: auto;
-	font: 23px Rockwell Extra Bold, bold, seif;
-	margin: 30;
-  }
+  
