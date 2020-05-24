@@ -288,7 +288,7 @@ main {
 }
 
 .titoloattualità{
-	color: #003C7F;
+	color: rgb(7, 145, 80);
 	font: 40px 	fantasy, bold;
 	text-align: center;
 	padding: 5;
@@ -399,7 +399,7 @@ main {
 	text-align: center;
 	width: auto;
 	height: auto;
-	font: 20px Cooper Black, bold, sans-serif;
+	font:  23px Rockwell Extra Bold, bold, seif;
 	margin: 30;
   }
 
@@ -421,7 +421,7 @@ main {
 	text-align: center;
 	width: auto;
 	height: auto;
-	font: 20px Cooper Black, bold, sans-serif;
+	font: 23px Rockwell Extra Bold, bold, seif;
 	margin: 30;
   }
 
@@ -439,10 +439,20 @@ main {
   #border7 {
 	border: 12px solid transparent;
 	padding: 25px;
-	border-image: url("../images/border7.jpeg") 5 stretch;
+	border-image: url("../images/border7.jpeg") 5 round;
 	text-align: center;
 	width: auto;
 	height: auto;
-	font: 20px Cooper Black, bold, sans-serif;
+	font: 23px Rockwell Extra Bold, bold, seif;
+	margin: 30;
+  }
+  #border10 {
+	border: 12px solid transparent;
+	padding: 25px;
+	border-image: url("../images/border10.jpeg") 15 round;
+	text-align: center;
+	width: auto;
+	height: auto;
+	font: 23px Rockwell Extra Bold, bold, seif;
 	margin: 30;
   }
