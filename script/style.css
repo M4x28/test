@@ -30,6 +30,7 @@ p{
 	text-align:left;
 	margin-left:10px;
 	margin-right:20px;
+	padding:30px;
 }
 
 * {
@@ -239,18 +240,61 @@ main {
 	display: block;
   }
 
-
-
 *{
     margin: 0;
     padding: 0;
 }
 
-
-
-.colore-importante{
-    color: tomato;
+#titoloPagina {
+	font: 80px Lucida Calligraphy, bold, serif;
+	color: var(--text-secondary);
+	text-align: center;
+	padding: 35;
+	padding-bottom: 80;
 }
+
+.titolo{
+	color: rgb(255, 196, 0);
+	font-weight: bold;
+	font: 70px 'oswald', bold;
+	text-align: center;
+	padding: 10;
+	margin-top:-20px;
+	
+}
+
+.titolosport {
+	color: red;
+	font: 40px  fantasy , bold;
+	text-align: center;
+	padding: 5;
+	margin-bottom:-10px;
+}
+
+.titolovideogiochi{
+	color: #00aeff;
+	font: 40px 	fantasy, bold;
+	text-align: center;
+	padding: 5;
+	margin-bottom:-10px;	
+}
+
+.titolomusica {
+	color: rgb(171, 53, 240);
+	font: 40px 	fantasy, bold;
+	text-align: center;
+	padding: 5;
+	margin-bottom:-10px;
+}
+
+.titolocronaca{
+	color: rgb(7, 145, 80);
+	font: 40px 	fantasy, bold;
+	text-align: center;
+	padding: 5;
+	margin-bottom:-10px;	
+}
+
 
 .informazioni .contenitore{
     display: flex;
@@ -260,11 +304,18 @@ main {
 }
 
 .informazioni img{
-    width: 50%;
-    margin: auto;
-	border-radius: 50%;
-	overflow: visible;
+	float: right;
+	width: max-content;
+	height:auto;
+	margin-left:15px;
+	overflow: auto;
 }
+
+  .clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
 
 .informazioni .info-s{
     flex: 1;
@@ -284,9 +335,6 @@ main {
     display: flex;
    
 }
-
-
-
 
 .dark {
 	--text-primary: #b6b6b6;
@@ -321,23 +369,95 @@ main {
   .light #lightIcon {
 	display: block;
   }
+  
+  .immagini {
+	  margin: 15px;
+  }
 
   #border1 {
 	border: 12px solid transparent;
 	padding: 25px;
-	border-image: url("images/border1.jpeg") 30 round;
+	border-image: url("../images/border1.jpeg") 30 round;
 	text-align: center;
 	width: auto;
 	height: auto;
 	font: 20px Cooper Black, bold, sans-serif;
+	margin: 30;
   }
-  
+
   #border2 {
 	border: 15px solid transparent;
 	padding: 25px;
-	border-image: url("images/border2.jpeg") 60 stretch;
+	border-image: url("../images/border2.jpeg") 5 stretch;
 	text-align: center;
 	width: auto;
 	height: auto;
 	font: 23px Rockwell Extra Bold, bold, seif;
+	margin: 30;
+  }
+
+  #border3 {
+	border: 12px solid transparent;
+	padding: 25px;
+	border-image: url("../images/border3.jpeg") 10 round;
+	text-align: center;
+	width: auto;
+	height: auto;
+	font:  23px Rockwell Extra Bold, bold, seif;
+	margin: 30;
+  }
+
+  #border4 {
+	border: 15px solid transparent;
+	padding: 25px;
+	border-image: url("../images/border4.jpeg") 10 stretch;
+	text-align: center;
+	width: auto;
+	height: auto;
+	font: 23px Rockwell Extra Bold, bold, seif;
+	margin: 30;
+  }
+
+  #border5 {
+	border: 12px solid transparent;
+	padding: 25px;
+	border-image: url("../images/border5.jpeg") 10 round;
+	text-align: center;
+	width: auto;
+	height: auto;
+	font: 23px Rockwell Extra Bold, bold, seif;
+	margin: 30;
+  }
+
+  #border6 {
+	border: 15px solid transparent;
+	padding: 25px;
+	border-image: url("../images/border6.jpeg") 5 stretch;
+	text-align: center;
+	width: auto;
+	height: auto;
+	font: 23px Rockwell Extra Bold, bold, seif;
+	margin: 30;
+  }
+
+  #border7 {
+	border: 12px solid transparent;
+	padding: 25px;
+	border-image: url("../images/border7.jpeg") 5 round;
+	text-align: center;
+	width: auto;
+	height: auto;
+	font: 23px Rockwell Extra Bold, bold, seif;
+	margin: 30;
+  }
+  
+  #border8 {
+	border: 12px solid transparent;
+	padding: 25px;
+	border-image: url("../images/border8.jpg") 2 round;
+	text-align: center;
+	width: auto;
+	height: auto;
+	font: 23px Rockwell Extra Bold, bold, seif;
+	margin: 30;
   }
