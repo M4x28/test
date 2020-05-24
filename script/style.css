@@ -370,6 +370,10 @@ main {
 	display: block;
   }
   
+  .immagini {
+	  margin: 15px;
+  }
+
   #border1 {
 	border: 12px solid transparent;
 	padding: 25px;
