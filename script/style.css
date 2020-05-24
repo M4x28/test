@@ -265,7 +265,7 @@ main {
 
 .titolosport {
 	color: red;
-	font: 40px 	verdana, bold;
+	font: 40px  fantasy , bold;
 	text-align: center;
 	padding: 5;
 	margin-bottom:-10px;
@@ -273,7 +273,7 @@ main {
 
 .titolovideogiochi{
 	color: #ffd100;
-	font: 40px 	verdana, bold;
+	font: 40px 	fantasy, bold;
 	text-align: center;
 	padding: 5;
 	margin-bottom:-10px;	
@@ -281,7 +281,7 @@ main {
 
 .titolomusica {
 	color: rgb(171, 53, 240);
-	font: 40px 	verdana, bold;
+	font: 40px 	fantasy, bold;
 	text-align: center;
 	padding: 5;
 	margin-bottom:-10px;
@@ -289,7 +289,7 @@ main {
 
 .titoloattualità{
 	color: #003C7F;
-	font: 40px 	verdana, bold;
+	font: 40px 	fantasy, bold;
 	text-align: center;
 	padding: 5;
 	margin-bottom:-10px;	
